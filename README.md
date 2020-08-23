@@ -6,5 +6,7 @@ Otherwise  it will return false(when two of more character must be changed to ma
 Examples:
 
 isAlmostPalindrome(abccba) --> true //It is palindrome
+
 isAlmostPalindrome(abccbx) --> true // It is a palindrome modifying the x to a
+
 isAlmostPalindrome(abccfg) --> false // There is no way to obtain a palindrome modifying just one character. At least two character must be changed. For instance the f to b and g to a
